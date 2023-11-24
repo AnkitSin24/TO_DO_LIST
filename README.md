@@ -9,9 +9,8 @@ A simple and interactive To-Do List application built with React.
 - Mark tasks as completed, with visual distinction.
 - Display a list of tasks, showing descriptions and completion status.
 
-![Screenshot (60)](https://github.com/AnkitSin24/TO_DO_LIST/assets/89828727/03fce248-2f68-4f2e-aacb-d3bc1b1b1b47)
 
-
+![to_do_list](https://github.com/AnkitSin24/TO_DO_LIST/assets/89828727/26b220aa-a389-4fc9-af6f-f2b06f2def77)
 
 
 Follow these instructions to get a copy of the project up and running on your local machine.
