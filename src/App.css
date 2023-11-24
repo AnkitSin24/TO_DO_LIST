@@ -1,0 +1,94 @@
+/* App.css */
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+/* Update the li styles in App.css */
+li {
+  margin: 10px 0;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: space-between;
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+
+li button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+li button:hover {
+  background-color: #d32f2f;
+}
+
+li.completed {
+  background-color: #e6e6e6;
+  text-decoration: line-through;
+}
+
+
+
+li {
+  /* Existing styles */
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+li,
+li button {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Add this to App.css */
+.task-count {
+  margin: 15px 0;
+  font-size: 18px;
+  color: #555;
+}
+
